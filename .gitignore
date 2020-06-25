@@ -1,0 +1,12 @@
+.ipynb_checkpoints
+.python-version
+.vscode
+dataset
+*.png
+*.jpg
+__pycache__
+.DS_Store
+*.prm
+*.pth
+events.out.tfevents.*
+wandb

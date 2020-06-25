@@ -1,0 +1,132 @@
+Done
+
+------------------------Loading Model------------------------
+
+resnet18 will be used as a model.
+
+------------------------Start training------------------------
+
+Epoch: [0][ 50/134]	Time  0.056 (avg.  0.165)	Data  0.000 (avg.  0.121)	Loss 3.3655e+00 (avg. 3.4326e+00)	Acc@1   9.38 (avg.  19.42)
+Epoch: [0][100/134]	Time  0.056 (avg.  0.159)	Data  0.000 (avg.  0.116)	Loss 3.1085e+00 (avg. 3.1188e+00)	Acc@1  18.75 (avg.  24.10)
+epoch: 0	epoch time[sec]: 135	lr: 0.0005	train loss: 2.9901	val loss: 2.7148 val_acc1: 28.82463	val_f1s: 0.27166
+/home/yuchi/.pyenv/versions/torch/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Epoch: [1][ 50/134]	Time  0.165 (avg.  0.158)	Data  0.137 (avg.  0.121)	Loss 2.0786e+00 (avg. 2.1893e+00)	Acc@1  46.88 (avg.  41.79)
+Epoch: [1][100/134]	Time  0.242 (avg.  0.160)	Data  0.214 (avg.  0.123)	Loss 2.0066e+00 (avg. 2.1846e+00)	Acc@1  40.62 (avg.  41.34)
+epoch: 1	epoch time[sec]: 29	lr: 0.0005	train loss: 2.1701	val loss: 2.4060 val_acc1: 36.10075	val_f1s: 0.35061
+Epoch: [2][ 50/134]	Time  0.215 (avg.  0.166)	Data  0.187 (avg.  0.127)	Loss 1.9593e+00 (avg. 1.8686e+00)	Acc@1  37.50 (avg.  49.63)
+Epoch: [2][100/134]	Time  0.230 (avg.  0.157)	Data  0.201 (avg.  0.120)	Loss 2.1394e+00 (avg. 1.8958e+00)	Acc@1  37.50 (avg.  48.79)
+epoch: 2	epoch time[sec]: 29	lr: 0.0005	train loss: 1.9159	val loss: 2.1537 val_acc1: 41.97761	val_f1s: 0.39905
+Epoch: [3][ 50/134]	Time  0.311 (avg.  0.163)	Data  0.283 (avg.  0.130)	Loss 1.6990e+00 (avg. 1.6738e+00)	Acc@1  53.12 (avg.  54.60)
+Epoch: [3][100/134]	Time  0.224 (avg.  0.164)	Data  0.196 (avg.  0.126)	Loss 1.5494e+00 (avg. 1.6863e+00)	Acc@1  56.25 (avg.  53.68)
+epoch: 3	epoch time[sec]: 29	lr: 0.0005	train loss: 1.7008	val loss: 2.0166 val_acc1: 46.17537	val_f1s: 0.46261
+Epoch: [4][ 50/134]	Time  0.096 (avg.  0.163)	Data  0.068 (avg.  0.127)	Loss 1.2259e+00 (avg. 1.5102e+00)	Acc@1  65.62 (avg.  58.64)
+Epoch: [4][100/134]	Time  0.221 (avg.  0.162)	Data  0.192 (avg.  0.124)	Loss 2.0659e+00 (avg. 1.5642e+00)	Acc@1  46.88 (avg.  57.49)
+epoch: 4	epoch time[sec]: 29	lr: 0.0005	train loss: 1.5907	val loss: 2.0179 val_acc1: 47.38806	val_f1s: 0.46474
+Epoch: [5][ 50/134]	Time  0.388 (avg.  0.173)	Data  0.360 (avg.  0.133)	Loss 1.3693e+00 (avg. 1.4848e+00)	Acc@1  59.38 (avg.  58.46)
+Epoch: [5][100/134]	Time  0.221 (avg.  0.167)	Data  0.193 (avg.  0.126)	Loss 1.6126e+00 (avg. 1.4726e+00)	Acc@1  59.38 (avg.  59.07)
+epoch: 5	epoch time[sec]: 29	lr: 0.0005	train loss: 1.4882	val loss: 1.8692 val_acc1: 50.74627	val_f1s: 0.50675
+Epoch: [6][ 50/134]	Time  0.205 (avg.  0.169)	Data  0.173 (avg.  0.127)	Loss 1.5272e+00 (avg. 1.3427e+00)	Acc@1  62.50 (avg.  62.07)
+Epoch: [6][100/134]	Time  0.056 (avg.  0.163)	Data  0.024 (avg.  0.123)	Loss 1.0317e+00 (avg. 1.3762e+00)	Acc@1  68.75 (avg.  61.88)
+epoch: 6	epoch time[sec]: 29	lr: 0.0005	train loss: 1.3849	val loss: 1.7565 val_acc1: 52.61194	val_f1s: 0.51551
+Epoch: [7][ 50/134]	Time  0.237 (avg.  0.163)	Data  0.209 (avg.  0.124)	Loss 1.1155e+00 (avg. 1.3152e+00)	Acc@1  71.88 (avg.  62.99)
+Epoch: [7][100/134]	Time  0.089 (avg.  0.160)	Data  0.061 (avg.  0.122)	Loss 1.6684e+00 (avg. 1.3154e+00)	Acc@1  62.50 (avg.  62.87)
+epoch: 7	epoch time[sec]: 29	lr: 0.0005	train loss: 1.3302	val loss: 2.0292 val_acc1: 46.73507	val_f1s: 0.47070
+Epoch: [8][ 50/134]	Time  0.275 (avg.  0.164)	Data  0.247 (avg.  0.125)	Loss 1.3401e+00 (avg. 1.1907e+00)	Acc@1  59.38 (avg.  67.03)
+Epoch: [8][100/134]	Time  0.262 (avg.  0.162)	Data  0.234 (avg.  0.121)	Loss 1.8105e+00 (avg. 1.2100e+00)	Acc@1  43.75 (avg.  66.09)
+epoch: 8	epoch time[sec]: 29	lr: 0.0005	train loss: 1.2526	val loss: 1.6572 val_acc1: 56.06343	val_f1s: 0.55854
+Epoch: [9][ 50/134]	Time  0.268 (avg.  0.160)	Data  0.240 (avg.  0.118)	Loss 8.5674e-01 (avg. 1.1210e+00)	Acc@1  78.12 (avg.  68.75)
+Epoch: [9][100/134]	Time  0.260 (avg.  0.160)	Data  0.231 (avg.  0.118)	Loss 1.0224e+00 (avg. 1.1465e+00)	Acc@1  62.50 (avg.  68.04)
+epoch: 9	epoch time[sec]: 29	lr: 0.0005	train loss: 1.1719	val loss: 2.0228 val_acc1: 45.52239	val_f1s: 0.45487
+Epoch: [10][ 50/134]	Time  0.274 (avg.  0.163)	Data  0.246 (avg.  0.124)	Loss 8.7224e-01 (avg. 1.0909e+00)	Acc@1  75.00 (avg.  68.87)
+Epoch: [10][100/134]	Time  0.236 (avg.  0.161)	Data  0.207 (avg.  0.123)	Loss 1.0978e+00 (avg. 1.1193e+00)	Acc@1  68.75 (avg.  68.84)
+epoch: 10	epoch time[sec]: 29	lr: 0.0005	train loss: 1.1490	val loss: 1.7395 val_acc1: 54.19776	val_f1s: 0.54602
+Epoch: [11][ 50/134]	Time  0.057 (avg.  0.163)	Data  0.013 (avg.  0.124)	Loss 1.0374e+00 (avg. 1.0324e+00)	Acc@1  71.88 (avg.  71.51)
+Epoch: [11][100/134]	Time  0.298 (avg.  0.159)	Data  0.270 (avg.  0.122)	Loss 6.3913e-01 (avg. 1.0627e+00)	Acc@1  81.25 (avg.  70.20)
+epoch: 11	epoch time[sec]: 29	lr: 0.0005	train loss: 1.0891	val loss: 1.4983 val_acc1: 60.44776	val_f1s: 0.59334
+Epoch: [12][ 50/134]	Time  0.057 (avg.  0.163)	Data  0.000 (avg.  0.128)	Loss 8.4483e-01 (avg. 9.3105e-01)	Acc@1  71.88 (avg.  73.53)
+Epoch: [12][100/134]	Time  0.057 (avg.  0.161)	Data  0.000 (avg.  0.122)	Loss 1.2140e+00 (avg. 9.9330e-01)	Acc@1  62.50 (avg.  72.28)
+epoch: 12	epoch time[sec]: 29	lr: 0.0005	train loss: 1.0329	val loss: 1.6203 val_acc1: 57.18284	val_f1s: 0.56690
+Epoch: [13][ 50/134]	Time  0.203 (avg.  0.164)	Data  0.174 (avg.  0.122)	Loss 8.8406e-01 (avg. 9.6644e-01)	Acc@1  78.12 (avg.  74.02)
+Epoch: [13][100/134]	Time  0.203 (avg.  0.160)	Data  0.175 (avg.  0.122)	Loss 1.3737e+00 (avg. 9.6631e-01)	Acc@1  68.75 (avg.  72.90)
+epoch: 13	epoch time[sec]: 29	lr: 0.0005	train loss: 0.9739	val loss: 1.6605 val_acc1: 54.47761	val_f1s: 0.55709
+Epoch: [14][ 50/134]	Time  0.137 (avg.  0.163)	Data  0.108 (avg.  0.125)	Loss 1.0169e+00 (avg. 9.2221e-01)	Acc@1  71.88 (avg.  73.96)
+Epoch: [14][100/134]	Time  0.057 (avg.  0.164)	Data  0.000 (avg.  0.124)	Loss 9.8428e-01 (avg. 9.3551e-01)	Acc@1  71.88 (avg.  73.08)
+epoch: 14	epoch time[sec]: 29	lr: 0.0005	train loss: 0.9608	val loss: 1.5832 val_acc1: 57.55597	val_f1s: 0.57144
+Epoch: [15][ 50/134]	Time  0.268 (avg.  0.167)	Data  0.240 (avg.  0.126)	Loss 1.0671e+00 (avg. 8.8065e-01)	Acc@1  75.00 (avg.  75.06)
+Epoch: [15][100/134]	Time  0.228 (avg.  0.164)	Data  0.201 (avg.  0.123)	Loss 8.2740e-01 (avg. 8.7767e-01)	Acc@1  78.12 (avg.  75.31)
+epoch: 15	epoch time[sec]: 29	lr: 0.0005	train loss: 0.8995	val loss: 1.6218 val_acc1: 57.55597	val_f1s: 0.58071
+Epoch: [16][ 50/134]	Time  0.230 (avg.  0.163)	Data  0.202 (avg.  0.133)	Loss 7.0401e-01 (avg. 8.0682e-01)	Acc@1  78.12 (avg.  77.08)
+Epoch: [16][100/134]	Time  0.261 (avg.  0.161)	Data  0.233 (avg.  0.126)	Loss 6.6220e-01 (avg. 8.4676e-01)	Acc@1  81.25 (avg.  76.02)
+epoch: 16	epoch time[sec]: 29	lr: 0.0005	train loss: 0.8718	val loss: 1.7999 val_acc1: 53.73134	val_f1s: 0.55405
+Epoch: [17][ 50/134]	Time  0.057 (avg.  0.159)	Data  0.022 (avg.  0.127)	Loss 8.5646e-01 (avg. 7.8242e-01)	Acc@1  81.25 (avg.  78.98)
+Epoch: [17][100/134]	Time  0.275 (avg.  0.159)	Data  0.247 (avg.  0.125)	Loss 6.1850e-01 (avg. 8.1572e-01)	Acc@1  78.12 (avg.  77.41)
+epoch: 17	epoch time[sec]: 29	lr: 0.0005	train loss: 0.8407	val loss: 1.5695 val_acc1: 58.86194	val_f1s: 0.58425
+Epoch: [18][ 50/134]	Time  0.262 (avg.  0.168)	Data  0.234 (avg.  0.126)	Loss 9.0168e-01 (avg. 8.1462e-01)	Acc@1  75.00 (avg.  76.59)
+Epoch: [18][100/134]	Time  0.057 (avg.  0.163)	Data  0.000 (avg.  0.126)	Loss 6.4515e-01 (avg. 8.4766e-01)	Acc@1  78.12 (avg.  76.30)
+epoch: 18	epoch time[sec]: 29	lr: 0.0005	train loss: 0.8551	val loss: 1.6305 val_acc1: 56.99627	val_f1s: 0.56600
+Epoch: [19][ 50/134]	Time  0.204 (avg.  0.161)	Data  0.176 (avg.  0.132)	Loss 8.7420e-01 (avg. 6.8602e-01)	Acc@1  71.88 (avg.  81.25)
+Epoch: [19][100/134]	Time  0.057 (avg.  0.160)	Data  0.000 (avg.  0.124)	Loss 7.0964e-01 (avg. 7.4130e-01)	Acc@1  87.50 (avg.  79.42)
+epoch: 19	epoch time[sec]: 29	lr: 0.0005	train loss: 0.7473	val loss: 1.4989 val_acc1: 60.63433	val_f1s: 0.60985
+Epoch: [20][ 50/134]	Time  0.234 (avg.  0.166)	Data  0.205 (avg.  0.125)	Loss 5.1963e-01 (avg. 7.3371e-01)	Acc@1  87.50 (avg.  79.29)
+Epoch: [20][100/134]	Time  0.223 (avg.  0.159)	Data  0.194 (avg.  0.117)	Loss 6.3041e-01 (avg. 7.8289e-01)	Acc@1  84.38 (avg.  77.85)
+epoch: 20	epoch time[sec]: 29	lr: 0.0005	train loss: 0.7995	val loss: 1.9431 val_acc1: 51.49254	val_f1s: 0.51746
+Epoch: [21][ 50/134]	Time  0.096 (avg.  0.159)	Data  0.068 (avg.  0.126)	Loss 1.4995e+00 (avg. 7.3159e-01)	Acc@1  56.25 (avg.  78.86)
+Epoch: [21][100/134]	Time  0.057 (avg.  0.160)	Data  0.000 (avg.  0.125)	Loss 9.9081e-01 (avg. 7.6049e-01)	Acc@1  68.75 (avg.  78.56)
+epoch: 21	epoch time[sec]: 29	lr: 0.0005	train loss: 0.7833	val loss: 1.6790 val_acc1: 56.15672	val_f1s: 0.56289
+Epoch: [22][ 50/134]	Time  0.057 (avg.  0.160)	Data  0.007 (avg.  0.124)	Loss 8.2488e-01 (avg. 6.9206e-01)	Acc@1  71.88 (avg.  80.88)
+Epoch: [22][100/134]	Time  0.057 (avg.  0.161)	Data  0.000 (avg.  0.126)	Loss 9.7660e-01 (avg. 7.2125e-01)	Acc@1  68.75 (avg.  79.89)
+epoch: 22	epoch time[sec]: 29	lr: 0.0005	train loss: 0.7307	val loss: 1.4781 val_acc1: 62.50000	val_f1s: 0.62673
+Epoch: [23][ 50/134]	Time  0.116 (avg.  0.161)	Data  0.087 (avg.  0.130)	Loss 5.1061e-01 (avg. 6.6093e-01)	Acc@1  84.38 (avg.  80.45)
+Epoch: [23][100/134]	Time  0.097 (avg.  0.160)	Data  0.068 (avg.  0.124)	Loss 9.4813e-01 (avg. 6.8903e-01)	Acc@1  68.75 (avg.  80.07)
+epoch: 23	epoch time[sec]: 29	lr: 0.0005	train loss: 0.7050	val loss: 1.7247 val_acc1: 56.80970	val_f1s: 0.57280
+Epoch: [24][ 50/134]	Time  0.251 (avg.  0.176)	Data  0.222 (avg.  0.134)	Loss 7.7726e-01 (avg. 7.3321e-01)	Acc@1  78.12 (avg.  79.60)
+Epoch: [24][100/134]	Time  0.062 (avg.  0.163)	Data  0.033 (avg.  0.122)	Loss 8.3657e-01 (avg. 7.5136e-01)	Acc@1  71.88 (avg.  78.59)
+epoch: 24	epoch time[sec]: 29	lr: 0.0005	train loss: 0.7337	val loss: 1.5136 val_acc1: 59.23507	val_f1s: 0.59817
+Epoch: [25][ 50/134]	Time  0.297 (avg.  0.164)	Data  0.268 (avg.  0.128)	Loss 3.1253e-01 (avg. 6.5966e-01)	Acc@1  96.88 (avg.  81.07)
+Epoch: [25][100/134]	Time  0.057 (avg.  0.160)	Data  0.000 (avg.  0.127)	Loss 7.8598e-01 (avg. 7.0418e-01)	Acc@1  75.00 (avg.  80.38)
+epoch: 25	epoch time[sec]: 29	lr: 0.0005	train loss: 0.6939	val loss: 1.4716 val_acc1: 62.50000	val_f1s: 0.62287
+Epoch: [26][ 50/134]	Time  0.210 (avg.  0.168)	Data  0.182 (avg.  0.127)	Loss 8.3731e-01 (avg. 5.9672e-01)	Acc@1  75.00 (avg.  83.46)
+Epoch: [26][100/134]	Time  0.217 (avg.  0.161)	Data  0.188 (avg.  0.124)	Loss 8.2126e-01 (avg. 6.3374e-01)	Acc@1  84.38 (avg.  82.61)
+epoch: 26	epoch time[sec]: 29	lr: 0.0005	train loss: 0.6604	val loss: 1.5873 val_acc1: 59.42164	val_f1s: 0.60628
+Epoch: [27][ 50/134]	Time  0.253 (avg.  0.165)	Data  0.225 (avg.  0.123)	Loss 5.3369e-01 (avg. 6.4222e-01)	Acc@1  90.62 (avg.  82.41)
+Epoch: [27][100/134]	Time  0.057 (avg.  0.161)	Data  0.000 (avg.  0.124)	Loss 3.7172e-01 (avg. 6.3469e-01)	Acc@1  90.62 (avg.  82.67)
+epoch: 27	epoch time[sec]: 29	lr: 0.0005	train loss: 0.6640	val loss: 1.5601 val_acc1: 60.16791	val_f1s: 0.59378
+Epoch: [28][ 50/134]	Time  0.151 (avg.  0.163)	Data  0.122 (avg.  0.129)	Loss 5.2550e-01 (avg. 6.4574e-01)	Acc@1  87.50 (avg.  82.90)
+Epoch: [28][100/134]	Time  0.130 (avg.  0.160)	Data  0.101 (avg.  0.127)	Loss 5.8201e-01 (avg. 6.3193e-01)	Acc@1  87.50 (avg.  83.17)
+epoch: 28	epoch time[sec]: 29	lr: 0.0005	train loss: 0.6501	val loss: 1.5182 val_acc1: 60.54104	val_f1s: 0.60711
+Epoch: [29][ 50/134]	Time  0.138 (avg.  0.162)	Data  0.110 (avg.  0.125)	Loss 5.5856e-01 (avg. 6.6345e-01)	Acc@1  87.50 (avg.  82.11)
+Epoch: [29][100/134]	Time  0.057 (avg.  0.159)	Data  0.000 (avg.  0.124)	Loss 1.0048e+00 (avg. 6.6232e-01)	Acc@1  75.00 (avg.  81.65)
+epoch: 29	epoch time[sec]: 29	lr: 0.0005	train loss: 0.6690	val loss: 1.5061 val_acc1: 59.51493	val_f1s: 0.59933
+Epoch: [30][ 50/134]	Time  0.271 (avg.  0.171)	Data  0.242 (avg.  0.130)	Loss 5.3832e-01 (avg. 6.1923e-01)	Acc@1  87.50 (avg.  83.15)
+Epoch: [30][100/134]	Time  0.213 (avg.  0.162)	Data  0.184 (avg.  0.121)	Loss 7.5660e-01 (avg. 6.4618e-01)	Acc@1  75.00 (avg.  82.18)
+epoch: 30	epoch time[sec]: 29	lr: 0.0005	train loss: 0.6433	val loss: 1.6527 val_acc1: 57.55597	val_f1s: 0.57272
+Epoch: [31][ 50/134]	Time  0.257 (avg.  0.162)	Data  0.229 (avg.  0.127)	Loss 6.5269e-01 (avg. 6.7988e-01)	Acc@1  84.38 (avg.  81.37)
+Epoch: [31][100/134]	Time  0.106 (avg.  0.159)	Data  0.078 (avg.  0.125)	Loss 1.0692e+00 (avg. 6.4421e-01)	Acc@1  78.12 (avg.  82.24)
+epoch: 31	epoch time[sec]: 29	lr: 0.0005	train loss: 0.6565	val loss: 1.5001 val_acc1: 60.72761	val_f1s: 0.60760
+Epoch: [32][ 50/134]	Time  0.054 (avg.  0.181)	Data  0.000 (avg.  0.144)	Loss 5.6754e-01 (avg. 6.0638e-01)	Acc@1  84.38 (avg.  83.46)
+Epoch: [32][100/134]	Time  0.057 (avg.  0.173)	Data  0.000 (avg.  0.133)	Loss 5.8545e-01 (avg. 6.6492e-01)	Acc@1  78.12 (avg.  81.31)
+epoch: 32	epoch time[sec]: 30	lr: 0.0005	train loss: 0.6520	val loss: 1.6462 val_acc1: 57.74254	val_f1s: 0.58565
+Epoch: [33][ 50/134]	Time  0.359 (avg.  0.163)	Data  0.330 (avg.  0.127)	Loss 5.7574e-01 (avg. 6.3133e-01)	Acc@1  90.62 (avg.  82.78)
+Epoch: [33][100/134]	Time  0.056 (avg.  0.160)	Data  0.000 (avg.  0.122)	Loss 5.7199e-01 (avg. 6.1963e-01)	Acc@1  87.50 (avg.  83.23)
+epoch: 33	epoch time[sec]: 29	lr: 0.0005	train loss: 0.6251	val loss: 1.6335 val_acc1: 59.42164	val_f1s: 0.59518
+Epoch: [34][ 50/134]	Time  0.145 (avg.  0.161)	Data  0.116 (avg.  0.125)	Loss 3.8693e-01 (avg. 5.5173e-01)	Acc@1  90.62 (avg.  84.13)
+Epoch: [34][100/134]	Time  0.166 (avg.  0.160)	Data  0.137 (avg.  0.126)	Loss 3.7448e-01 (avg. 5.8118e-01)	Acc@1  87.50 (avg.  83.66)
+epoch: 34	epoch time[sec]: 29	lr: 0.0005	train loss: 0.5760	val loss: 1.5199 val_acc1: 60.63433	val_f1s: 0.60702
+Epoch: [35][ 50/134]	Time  0.295 (avg.  0.165)	Data  0.267 (avg.  0.123)	Loss 5.4851e-01 (avg. 5.2170e-01)	Acc@1  81.25 (avg.  85.48)
+Epoch: [35][100/134]	Time  0.101 (avg.  0.162)	Data  0.073 (avg.  0.121)	Loss 4.8136e-01 (avg. 5.4918e-01)	Acc@1  84.38 (avg.  84.93)
+epoch: 35	epoch time[sec]: 29	lr: 0.0005	train loss: 0.5670	val loss: 1.6369 val_acc1: 56.71642	val_f1s: 0.57250
+Epoch: [36][ 50/134]	Time  0.077 (avg.  0.157)	Data  0.049 (avg.  0.119)	Loss 7.1259e-01 (avg. 5.6847e-01)	Acc@1  78.12 (avg.  84.50)
+Epoch: [36][100/134]	Time  0.323 (avg.  0.157)	Data  0.295 (avg.  0.123)	Loss 7.9641e-01 (avg. 5.8133e-01)	Acc@1  78.12 (avg.  84.00)
+epoch: 36	epoch time[sec]: 29	lr: 0.0005	train loss: 0.5925	val loss: 1.5500 val_acc1: 61.56716	val_f1s: 0.61551
+Epoch: [37][ 50/134]	Time  0.057 (avg.  0.165)	Data  0.000 (avg.  0.127)	Loss 5.1585e-01 (avg. 5.6226e-01)	Acc@1  87.50 (avg.  84.38)
+Epoch: [37][100/134]	Time  0.057 (avg.  0.161)	Data  0.000 (avg.  0.121)	Loss 2.4193e-01 (avg. 5.5832e-01)	Acc@1  93.75 (avg.  84.56)
+epoch: 37	epoch time[sec]: 29	lr: 0.0005	train loss: 0.5581	val loss: 1.6280 val_acc1: 59.04851	val_f1s: 0.59651
+Epoch: [38][ 50/134]	Time  0.279 (avg.  0.163)	Data  0.251 (avg.  0.123)	Loss 6.1239e-01 (avg. 4.6018e-01)	Acc@1  93.75 (avg.  86.70)
+Epoch: [38][100/134]	Time  0.283 (avg.  0.164)	Data  0.255 (avg.  0.123)	Loss 4.7477e-01 (avg. 5.2195e-01)	Acc@1  81.25 (avg.  85.30)
+epoch: 38	epoch time[sec]: 29	lr: 0.0005	train loss: 0.5420	val loss: 1.4748 val_acc1: 63.43284	val_f1s: 0.62941
+Epoch: [39][ 50/134]	Time  0.057 (avg.  0.163)	Data  0.000 (avg.  0.123)	Loss 4.9149e-01 (avg. 5.3962e-01)	Acc@1  90.62 (avg.  84.44)
+Epoch: [39][100/134]	Time  0.298 (avg.  0.161)	Data  0.269 (avg.  0.125)	Loss 6.9799e-01 (avg. 5.6973e-01)	Acc@1  75.00 (avg.  84.13)
+epoch: 39	epoch time[sec]: 29	lr: 0.0005	train loss: 0.5704	val loss: 1.5278 val_acc1: 59.42164	val_f1s: 0.58804
+Epoch: [40][ 50/134]	Time  0.347 (avg.  0.164)	Data  0.317 (avg.  0.129)	Loss 6.1177e-01 (avg. 5.4157e-01)	Acc@1  81.25 (avg.  84.56)
+Epoch: [40][100/134]	Time  0.277 (avg.  0.163)	Data  0.249 (avg.  0.124)	Loss 4.9355e-01 (avg. 5.5147e-01)	Acc@1  84.38 (avg.  84.19)
