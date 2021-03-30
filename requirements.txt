@@ -93,7 +93,7 @@ pycocotools==2.0.0
 pycodestyle==2.5.0
 pydensecrf==1.0rc3
 pyflakes==2.1.1
-Pygments==2.4.2
+Pygments==2.7.4
 pylint==2.3.1
 pyparsing==2.4.2
 pyperclip==1.7.0
